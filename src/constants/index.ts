@@ -8,12 +8,12 @@ import type {
 } from "../types";
 
 import {
-  mobile,
+
   backend,
   creator,
   web,
   javascript,
-  typescript,
+  Bootstrap,
   html,
   css,
   reactjs,
@@ -23,15 +23,16 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+ 
   meta,
   starbucks,
-  tesla,
+ 
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  Pureglow
+
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -55,10 +56,6 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
@@ -78,12 +75,12 @@ const technologies: TTechnology[] = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Bootstrap",
+    icon: Bootstrap,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "React JS",
@@ -106,10 +103,6 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -117,10 +110,7 @@ const technologies: TTechnology[] = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences: TExperience[] = [
@@ -137,25 +127,13 @@ const experiences: TExperience[] = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
   {
     title: "Web Developer",
     companyName: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "November 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -168,7 +146,7 @@ const experiences: TExperience[] = [
     companyName: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -207,25 +185,25 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Pure Glow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Pure Glow is E-commerce website for selling organic buety Products",
     tags: [
       {
-        name: "react",
+        name: "html,css",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: Pureglow,
+    sourceCodeLink: "https://github.com/IHSANTK/Pure-Glow",
   },
   {
     name: "Job IT",
