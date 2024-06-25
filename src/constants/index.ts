@@ -3,7 +3,7 @@ import type {
   TService,
   TTechnology,
   TExperience,
-  TTestimonial,
+
   TProject,
 } from "../types";
 
@@ -28,10 +28,11 @@ import {
   starbucks,
  
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  Pureglow
+
+  Pureglow,
+  kanban,
+  seminarhallbooking
+
 
 } from "../assets";
 
@@ -156,32 +157,6 @@ const experiences: TExperience[] = [
   },
 ];
 
-const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects: TProject[] = [
   {
@@ -206,47 +181,43 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/IHSANTK/Pure-Glow",
   },
   {
-    name: "Job IT",
+    name: "Kanban App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This for user can add and edit delete their tasks and dragable options",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: kanban,
+    sourceCodeLink: "https://github.com/IHSANTK/Kanban-App-Frontent",
   },
   {
-    name: "Trip Guide",
+    name: "Seminar Hall Booking",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "User can book seat in a seminar hall",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: seminarhallbooking,
+    sourceCodeLink: "https://github.com/IHSANTK/Seminar-Hall_Booking_App",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

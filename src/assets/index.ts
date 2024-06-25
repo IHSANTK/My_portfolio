@@ -31,6 +31,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Pureglow from "./Pureglow.png"
+import kanban from "./kanban.png"
+import seminarhallbooking  from "./seminarhallbooking.png"
+
+
+
+
 
 export {
   logo,
@@ -62,5 +68,8 @@ export {
   jobit,
   tripguide,
   Bootstrap,
-  Pureglow
+  Pureglow,
+  kanban,
+  seminarhallbooking
+
 };
