@@ -33,6 +33,9 @@ import tripguide from "./tripguide.png";
 import Pureglow from "./Pureglow.png"
 import kanban from "./kanban.png"
 import seminarhallbooking  from "./seminarhallbooking.png"
+import Calendor from "./Calendor.png"
+import Tictacgame from "./Tictacgame.png"
+import Posts from "./Posts.png"
 
 
 
@@ -70,6 +73,10 @@ export {
   Bootstrap,
   Pureglow,
   kanban,
-  seminarhallbooking
+  seminarhallbooking,
+  Calendor,
+  Tictacgame,
+  Posts
+
 
 };

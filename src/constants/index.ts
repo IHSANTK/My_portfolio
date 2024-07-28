@@ -1,4 +1,5 @@
 import type {
+
   TNavLink,
   TService,
   TTechnology,
@@ -28,7 +29,10 @@ import {
 
   Pureglow,
   kanban,
-  seminarhallbooking
+  seminarhallbooking,
+  Calendor,
+  Tictacgame,
+  Posts
 
 
 } from "../assets";
@@ -39,8 +43,8 @@ export const navLinks: TNavLink[] = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -215,6 +219,68 @@ const projects: TProject[] = [
     image: seminarhallbooking,
     sourceCodeLink: "https://github.com/IHSANTK/Seminar-Hall_Booking_App",
   },
+  {
+    name: "Calender Event Manage",
+    description:
+      "Users can Add events in calender Date for rememeber events",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux Toolkit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:  Calendor,
+    sourceCodeLink: "https://react-calendar-bice-two.vercel.app",
+  },
+  
+  {
+    name: "Tic Tic Game",
+    description:
+      "This is a game ",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux ",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:   Tictacgame,
+    sourceCodeLink: "https://github.com/IHSANTK/TicTacGame_React",
+  },
+  {
+    name: "Post and schedulePosts App",
+    description:
+      "This is for Users can post and schedule their posts ",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind ",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image:Posts,
+    sourceCodeLink: "https://github.com/IHSANTK/Post_and_schedulePosts_React",
+  },
+  
 ];
 
 export { services, technologies, projects };
