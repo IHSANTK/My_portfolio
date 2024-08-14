@@ -32,7 +32,8 @@ import {
   seminarhallbooking,
   Calendor,
   Tictacgame,
-  Posts
+  Posts,
+  Tournext
 
 
 } from "../assets";
@@ -180,6 +181,28 @@ const projects: TProject[] = [
     ],
     image: Pureglow,
     sourceCodeLink: "https://github.com/IHSANTK/Pure-Glow",
+  },
+  {
+    name: "TourNext",
+    description:
+      "TourNext is travel and tourist based we application",
+    tags: [
+     
+      {
+        name: "React,redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Tournext,
+    sourceCodeLink: "https://github.com/IHSANTK/TourNext",
   },
   {
     name: "Kanban App",

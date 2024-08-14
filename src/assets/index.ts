@@ -36,6 +36,7 @@ import seminarhallbooking  from "./seminarhallbooking.png"
 import Calendor from "./Calendor.png"
 import Tictacgame from "./Tictacgame.png"
 import Posts from "./Posts.png"
+import Tournext from "./tournext.png"
 
 
 
@@ -76,7 +77,8 @@ export {
   seminarhallbooking,
   Calendor,
   Tictacgame,
-  Posts
+  Posts,
+  Tournext
 
 
 };
